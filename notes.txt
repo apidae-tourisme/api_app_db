@@ -1,0 +1,2 @@
+# To bulk import seeds in a 1.6 CouchDB database
+curl -X POST -H "Content-Type: application/json" http://couch_server_url/database/_bulk_docs -d @seeds_export_file.json
